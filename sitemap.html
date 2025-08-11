@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Map - My Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .sitemap-container {
+            padding: 40px 0;
+        }
+        .sitemap-section {
+            margin-bottom: 30px;
+        }
+        .sitemap-section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .sitemap-list {
+            list-style: none;
+        }
+        .sitemap-list li {
+            margin-bottom: 10px;
+        }
+        .sitemap-list li a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .sitemap-list li a:hover {
+            color: #4CAF50;
+        }
+        .sitemap-sublist {
+            list-style: none;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .sitemap-sublist li {
+            margin-bottom: 8px;
+        }
+        .sitemap-sublist li:before {
+            content: "- ";
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">My Website</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/about.html">About</a></li>
+                    <li><a href="pages/services.html">Services</a></li>
+                    <li><a href="pages/portfolio.html">Portfolio</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                    <li><a href="sitemap.html">Site Map</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="sitemap-container">
+        <div class="container">
+            <h1>Site Map</h1>
+            <p>A complete directory of all pages on our website for easy navigation.</p>
+            
+            <div class="sitemap-section">
+                <h2>Main Pages</h2>
+                <ul class="sitemap-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="pages/about.html">About Us</a>
+                        <ul class="sitemap-sublist">
+                            <li><a href="pages/about/team.html">Our Team</a></li>
+                            <li><a href="pages/about/history.html">Company History</a></li>
+                            <li><a href="pages/about/mission.html">Mission & Vision</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="pages/services.html">Services</a>
+                        <ul class="sitemap-sublist">
+                            <li><a href="pages/services/service1.html">Service 1</a></li>
+                            <li><a href="pages/services/service2.html">Service 2</a></li>
+                            <li><a href="pages/services/service3.html">Service 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="pages/portfolio.html">Portfolio</a>
+                        <ul class="sitemap-sublist">
+                            <li><a href="pages/portfolio/project1.html">Project 1</a></li>
+                            <li><a href="pages/portfolio/project2.html">Project 2</a></li>
+                            <li><a href="pages/portfolio/project3.html">Project 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="sitemap-section">
+                <h2>Resources</h2>
+                <ul class="sitemap-list">
+                    <li><a href="resources/blog.html">Blog</a></li>
+                    <li><a href="resources/faq.html">FAQ</a></li>
+                    <li><a href="resources/downloads.html">Downloads</a></li>
+                </ul>
+            </div>
+            
+            <div class="sitemap-section">
+                <h2>Legal</h2>
+                <ul class="sitemap-list">
+                    <li><a href="legal/privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="legal/terms-of-service.html">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 My Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
